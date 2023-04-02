@@ -90,7 +90,7 @@ h1{
    }
 }
 
-
+/* MOBILE */
 @media (max-width: 767px){
     .container{
         display: grid;
