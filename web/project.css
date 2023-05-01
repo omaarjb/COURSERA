@@ -1,0 +1,205 @@
+/************************************************** NAVBAR **************************************************/
+.navbar {
+  background-color: rgb(226, 221, 221);
+}
+
+.nav-item {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: coral;
+  margin: auto;
+  display: block;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.sign-in {
+  background-color: rgb(15, 97, 165);
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.sign-up {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sign-in:hover {
+  background-color: coral;
+}
+
+.navbar .img {
+  height: 50px;
+}
+
+/************************************************** HOME **************************************************/
+
+.cont1 {
+  padding-top: 250px;
+}
+
+.home {
+  background-color: rgb(226, 221, 221);
+}
+
+.title h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.title span {
+  color: coral;
+}
+
+.ferrari-img {
+  width: 100%;
+}
+
+.store img {
+  width: 20%;
+}
+
+/************************************************** RIDE **************************************************/
+
+.fa-pen-to-square,
+.fa-clipboard,
+.fa-car-side {
+  color: rgb(209, 99, 59);
+  font-size: 30px;
+}
+
+.col1 {
+  background-color: rgb(243, 201, 186);
+  border-radius: 20px;
+}
+
+#ride {
+  padding-top: 90px;
+}
+
+.date-voiture {
+  border: 2px solid black;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+/************************************************** SERVICES ***************************************************/
+
+#services .card-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(235, 89, 37);
+}
+
+#services .card-title {
+  font-size: 25px;
+}
+
+#services h1 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+#services .container .btn {
+  background-color: rgb(15, 97, 165);
+  color: white;
+  font-weight: bold;
+  border-style: none;
+}
+
+#services .container .btn:hover {
+  background-color: coral;
+  color: black;
+}
+
+#about h1 {
+  padding-top: 90px;
+}
+
+#about h3 {
+  color: rgb(235, 89, 37);
+}
+#about p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/************************************************** REVIEWS **************************************************/
+
+#reviews h3 {
+  padding-top: 90px;
+}
+
+.prof-pic {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 3px solid coral;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  color: coral;
+  font-size: 20px;
+}
+
+#reviews .card {
+  border-style: none;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+}
+
+/************************************************** NEWSLETTER **************************************************/
+
+.Newsletter {
+  margin-top: 90px;
+  background-color: coral;
+}
+
+.Newsletter .btn {
+  background-color: rgb(15, 97, 165);
+  color: white;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+.Newsletter h3 {
+  font-weight: bold;
+}
+
+.Newsletter .container div {
+  padding: 30px;
+}
+
+.Newsletter .btn:hover {
+  opacity: 0.8;
+}
+
+/************************************************** FOOTER **************************************************/
+
+#socials {
+  margin-right: 10px;
+}
+
+.logos div {
+  font-size: 20px;
+}
